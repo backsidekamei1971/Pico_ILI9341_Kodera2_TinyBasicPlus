@@ -121,7 +121,7 @@
 //Adafruit_ILI9341 tft = Adafruit_ILI9341(&SPI, TFT_CS,  TFT_DC, TFT_RST);
 #define TFT_SCLK 18 // set these to be whatever pins you like!
 #define TFT_MOSI 19 // set these to be whatever pins you like!
-Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS,  TFT_DC, TFT_RST, TFT_SCLK, TFT_MOSI);
+Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS,  TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 
 
 int screenMem[274]; //the implementation of frame buffer is referenced from Ben Heck's
